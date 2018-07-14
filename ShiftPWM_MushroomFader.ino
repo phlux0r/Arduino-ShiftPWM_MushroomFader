@@ -46,7 +46,7 @@ unsigned char getPulseBrightness(unsigned long tm, float offset = 0.0, float mul
 void setup() {
   while (!Serial) {
     delay(100);
-  }**********************/00
+  }
   Serial.begin(9600);
 
   // initialize the pushbutton pin as an input:
